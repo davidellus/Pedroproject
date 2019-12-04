@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15292A932375EB3400B98E02 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15292A922375EB3400B98E02 /* AppDelegate.swift */; };
+		15292A9E2375EB3400B98E02 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15292A9C2375EB3400B98E02 /* Main.storyboard */; };
+		15292AA02375EB3500B98E02 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15292A9F2375EB3500B98E02 /* Assets.xcassets */; };
+		15292AA32375EB3500B98E02 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15292AA12375EB3500B98E02 /* LaunchScreen.storyboard */; };
+		155A1E2F2386E18900E658C8 /* Colonna.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 155A1E2E2386E18900E658C8 /* Colonna.mp3 */; };
+		155A1E552388956E00E658C8 /* SorcerAttack.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 155A1E542388956E00E658C8 /* SorcerAttack.atlas */; };
+		155A1E57238991ED00E658C8 /* soundBoss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 155A1E56238991ED00E658C8 /* soundBoss.mp3 */; };
+		15B9A7A92379975E002F6C13 /* BearImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 15B9A7A82379975E002F6C13 /* BearImages.atlas */; };
+		15E98CC4238AB1E600B4774D /* shieldboss.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 15E98CC3238AB1E600B4774D /* shieldboss.atlas */; };
+		8007276823841AF100D64191 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8007276723841AF100D64191 /* MenuScene.swift */; };
+		803FCCB82389BB9200817EDD /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803FCCB72389BB9200817EDD /* GameOverScene.swift */; };
+		803FCCBE2389BC3500817EDD /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803FCCBD2389BC3500817EDD /* GameViewController.swift */; };
+		8042DA17238410B20054C477 /* Bullet.png in Resources */ = {isa = PBXBuildFile; fileRef = 8042DA16238410B20054C477 /* Bullet.png */; };
+		804CB91E238731DA0079DB2E /* PlayerRun.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 804CB91D238731DA0079DB2E /* PlayerRun.atlas */; };
+		804CB920238731E00079DB2E /* PlayerAttack.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 804CB91F238731E00079DB2E /* PlayerAttack.atlas */; };
+		804DFFFE2389E1D700CC44E7 /* endgamesong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 804DFFFD2389E1D700CC44E7 /* endgamesong.mp3 */; };
+		809FD63123882885006C9009 /* BatFrames.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 809FD63023882885006C9009 /* BatFrames.atlas */; };
+		809FD6352388337C006C9009 /* skeleWalk.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 809FD6342388337C006C9009 /* skeleWalk.atlas */; };
+		809FD63723883AEF006C9009 /* playerBullet.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 809FD63623883AEF006C9009 /* playerBullet.atlas */; };
+		809FD639238840C1006C9009 /* healtBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 809FD638238840C1006C9009 /* healtBar.png */; };
+		80E1C8842383FA1E000E24AF /* BossAttack.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 80E1C8832383FA1E000E24AF /* BossAttack.atlas */; };
+		910FA5DF238BD654002EBB6D /* newmusic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 910FA5DE238BD654002EBB6D /* newmusic.mp3 */; };
+		910FA5F3238BDA74002EBB6D /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910FA5F2238BDA74002EBB6D /* GameScene.swift */; };
+		9177AE4B238BDD1D001D2438 /* Morte_Scheletro.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9177AE4A238BDD1D001D2438 /* Morte_Scheletro.mp3 */; };
+		9177AE4D238BDD52001D2438 /* Sparo_Personaggio.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9177AE4C238BDD52001D2438 /* Sparo_Personaggio.mp3 */; };
+		9177AE51238BDD74001D2438 /* Colpo_Strega.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9177AE50238BDD74001D2438 /* Colpo_Strega.mp3 */; };
+		9177AE55238BDE0B001D2438 /* high_pitch_hitted.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9177AE54238BDE0B001D2438 /* high_pitch_hitted.mp3 */; };
+		91D84787238BE183006A3E71 /* Strega_Dario.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 91D84786238BE183006A3E71 /* Strega_Dario.mp3 */; };
+		F1A87A652386A354006B1558 /* ShieldImages.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F1A87A642386A354006B1558 /* ShieldImages.atlas */; };
+		F1A87A672386A35A006B1558 /* SorcererIdle.atlas in Resources */ = {isa = PBXBuildFile; fileRef = F1A87A662386A35A006B1558 /* SorcererIdle.atlas */; };
+		F1A87A692386A440006B1558 /* 8bit.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1A87A682386A440006B1558 /* 8bit.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15292A8F2375EB3400B98E02 /* DivineTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DivineTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15292A922375EB3400B98E02 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		15292A9D2375EB3400B98E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15292A9F2375EB3500B98E02 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15292AA22375EB3500B98E02 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15292AA42375EB3500B98E02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		155A1E2E2386E18900E658C8 /* Colonna.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Colonna.mp3; sourceTree = "<group>"; };
+		155A1E542388956E00E658C8 /* SorcerAttack.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SorcerAttack.atlas; sourceTree = "<group>"; };
+		155A1E56238991ED00E658C8 /* soundBoss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = soundBoss.mp3; sourceTree = "<group>"; };
+		15B9A7A82379975E002F6C13 /* BearImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BearImages.atlas; sourceTree = "<group>"; };
+		15E98CC3238AB1E600B4774D /* shieldboss.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = shieldboss.atlas; sourceTree = "<group>"; };
+		8007276723841AF100D64191 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		803FCCB72389BB9200817EDD /* GameOverScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		803FCCBD2389BC3500817EDD /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		8042DA16238410B20054C477 /* Bullet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bullet.png; sourceTree = "<group>"; };
+		804CB91D238731DA0079DB2E /* PlayerRun.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerRun.atlas; sourceTree = "<group>"; };
+		804CB91F238731E00079DB2E /* PlayerAttack.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = PlayerAttack.atlas; sourceTree = "<group>"; };
+		804DFFFD2389E1D700CC44E7 /* endgamesong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = endgamesong.mp3; sourceTree = "<group>"; };
+		809FD63023882885006C9009 /* BatFrames.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BatFrames.atlas; sourceTree = "<group>"; };
+		809FD6342388337C006C9009 /* skeleWalk.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = skeleWalk.atlas; sourceTree = "<group>"; };
+		809FD63623883AEF006C9009 /* playerBullet.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = playerBullet.atlas; sourceTree = "<group>"; };
+		809FD638238840C1006C9009 /* healtBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = healtBar.png; sourceTree = "<group>"; };
+		80E1C8832383FA1E000E24AF /* BossAttack.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = BossAttack.atlas; sourceTree = "<group>"; };
+		910FA5DE238BD654002EBB6D /* newmusic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = newmusic.mp3; path = ../../newmusic.mp3; sourceTree = "<group>"; };
+		910FA5F2238BDA74002EBB6D /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GameScene.swift; path = ../../GameScene.swift; sourceTree = "<group>"; };
+		9177AE4A238BDD1D001D2438 /* Morte_Scheletro.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Morte_Scheletro.mp3; path = ../../../Downloads/Morte_Scheletro.mp3; sourceTree = "<group>"; };
+		9177AE4C238BDD52001D2438 /* Sparo_Personaggio.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Sparo_Personaggio.mp3; path = ../../../Downloads/Sparo_Personaggio.mp3; sourceTree = "<group>"; };
+		9177AE50238BDD74001D2438 /* Colpo_Strega.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Colpo_Strega.mp3; path = ../../../Downloads/Colpo_Strega.mp3; sourceTree = "<group>"; };
+		9177AE54238BDE0B001D2438 /* high_pitch_hitted.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = high_pitch_hitted.mp3; path = ../../high_pitch_hitted.mp3; sourceTree = "<group>"; };
+		91D84786238BE183006A3E71 /* Strega_Dario.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Strega_Dario.mp3; path = ../../../Downloads/Strega_Dario.mp3; sourceTree = "<group>"; };
+		F1A87A642386A354006B1558 /* ShieldImages.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = ShieldImages.atlas; sourceTree = "<group>"; };
+		F1A87A662386A35A006B1558 /* SorcererIdle.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = SorcererIdle.atlas; sourceTree = "<group>"; };
+		F1A87A682386A440006B1558 /* 8bit.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 8bit.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15292A8C2375EB3400B98E02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15292A862375EB3400B98E02 = {
+			isa = PBXGroup;
+			children = (
+				15292A912375EB3400B98E02 /* MyFirst */,
+				15292A902375EB3400B98E02 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15292A902375EB3400B98E02 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15292A8F2375EB3400B98E02 /* DivineTouch.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15292A912375EB3400B98E02 /* MyFirst */ = {
+			isa = PBXGroup;
+			children = (
+				910FA5DE238BD654002EBB6D /* newmusic.mp3 */,
+				9177AE54238BDE0B001D2438 /* high_pitch_hitted.mp3 */,
+				9177AE4A238BDD1D001D2438 /* Morte_Scheletro.mp3 */,
+				91D84786238BE183006A3E71 /* Strega_Dario.mp3 */,
+				9177AE50238BDD74001D2438 /* Colpo_Strega.mp3 */,
+				9177AE4C238BDD52001D2438 /* Sparo_Personaggio.mp3 */,
+				809FD638238840C1006C9009 /* healtBar.png */,
+				15E98CC3238AB1E600B4774D /* shieldboss.atlas */,
+				809FD63623883AEF006C9009 /* playerBullet.atlas */,
+				809FD6342388337C006C9009 /* skeleWalk.atlas */,
+				809FD63023882885006C9009 /* BatFrames.atlas */,
+				804CB91F238731E00079DB2E /* PlayerAttack.atlas */,
+				804CB91D238731DA0079DB2E /* PlayerRun.atlas */,
+				F1A87A662386A35A006B1558 /* SorcererIdle.atlas */,
+				F1A87A642386A354006B1558 /* ShieldImages.atlas */,
+				80E1C8832383FA1E000E24AF /* BossAttack.atlas */,
+				15B9A7A82379975E002F6C13 /* BearImages.atlas */,
+				15292A922375EB3400B98E02 /* AppDelegate.swift */,
+				155A1E542388956E00E658C8 /* SorcerAttack.atlas */,
+				8007276723841AF100D64191 /* MenuScene.swift */,
+				910FA5F2238BDA74002EBB6D /* GameScene.swift */,
+				803FCCB72389BB9200817EDD /* GameOverScene.swift */,
+				803FCCBD2389BC3500817EDD /* GameViewController.swift */,
+				15292A9C2375EB3400B98E02 /* Main.storyboard */,
+				F1A87A682386A440006B1558 /* 8bit.ttf */,
+				15292A9F2375EB3500B98E02 /* Assets.xcassets */,
+				8042DA16238410B20054C477 /* Bullet.png */,
+				15292AA12375EB3500B98E02 /* LaunchScreen.storyboard */,
+				15292AA42375EB3500B98E02 /* Info.plist */,
+				804DFFFD2389E1D700CC44E7 /* endgamesong.mp3 */,
+				155A1E56238991ED00E658C8 /* soundBoss.mp3 */,
+				155A1E2E2386E18900E658C8 /* Colonna.mp3 */,
+			);
+			path = MyFirst;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15292A8E2375EB3400B98E02 /* MyFirst */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15292AA72375EB3500B98E02 /* Build configuration list for PBXNativeTarget "MyFirst" */;
+			buildPhases = (
+				15292A8B2375EB3400B98E02 /* Sources */,
+				15292A8C2375EB3400B98E02 /* Frameworks */,
+				15292A8D2375EB3400B98E02 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFirst;
+			productName = MyFirst;
+			productReference = 15292A8F2375EB3400B98E02 /* DivineTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15292A872375EB3400B98E02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Paolo Buia";
+				TargetAttributes = {
+					15292A8E2375EB3400B98E02 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 15292A8A2375EB3400B98E02 /* Build configuration list for PBXProject "MyFirst" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15292A862375EB3400B98E02;
+			productRefGroup = 15292A902375EB3400B98E02 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15292A8E2375EB3400B98E02 /* MyFirst */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15292A8D2375EB3400B98E02 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15292A9E2375EB3400B98E02 /* Main.storyboard in Resources */,
+				155A1E552388956E00E658C8 /* SorcerAttack.atlas in Resources */,
+				809FD6352388337C006C9009 /* skeleWalk.atlas in Resources */,
+				F1A87A692386A440006B1558 /* 8bit.ttf in Resources */,
+				809FD63123882885006C9009 /* BatFrames.atlas in Resources */,
+				804CB920238731E00079DB2E /* PlayerAttack.atlas in Resources */,
+				9177AE55238BDE0B001D2438 /* high_pitch_hitted.mp3 in Resources */,
+				F1A87A672386A35A006B1558 /* SorcererIdle.atlas in Resources */,
+				91D84787238BE183006A3E71 /* Strega_Dario.mp3 in Resources */,
+				15E98CC4238AB1E600B4774D /* shieldboss.atlas in Resources */,
+				155A1E57238991ED00E658C8 /* soundBoss.mp3 in Resources */,
+				809FD639238840C1006C9009 /* healtBar.png in Resources */,
+				804CB91E238731DA0079DB2E /* PlayerRun.atlas in Resources */,
+				804DFFFE2389E1D700CC44E7 /* endgamesong.mp3 in Resources */,
+				155A1E2F2386E18900E658C8 /* Colonna.mp3 in Resources */,
+				9177AE51238BDD74001D2438 /* Colpo_Strega.mp3 in Resources */,
+				80E1C8842383FA1E000E24AF /* BossAttack.atlas in Resources */,
+				15292AA02375EB3500B98E02 /* Assets.xcassets in Resources */,
+				F1A87A652386A354006B1558 /* ShieldImages.atlas in Resources */,
+				8042DA17238410B20054C477 /* Bullet.png in Resources */,
+				809FD63723883AEF006C9009 /* playerBullet.atlas in Resources */,
+				15292AA32375EB3500B98E02 /* LaunchScreen.storyboard in Resources */,
+				15B9A7A92379975E002F6C13 /* BearImages.atlas in Resources */,
+				9177AE4B238BDD1D001D2438 /* Morte_Scheletro.mp3 in Resources */,
+				910FA5DF238BD654002EBB6D /* newmusic.mp3 in Resources */,
+				9177AE4D238BDD52001D2438 /* Sparo_Personaggio.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15292A8B2375EB3400B98E02 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				910FA5F3238BDA74002EBB6D /* GameScene.swift in Sources */,
+				803FCCBE2389BC3500817EDD /* GameViewController.swift in Sources */,
+				803FCCB82389BB9200817EDD /* GameOverScene.swift in Sources */,
+				8007276823841AF100D64191 /* MenuScene.swift in Sources */,
+				15292A932375EB3400B98E02 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15292A9C2375EB3400B98E02 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15292A9D2375EB3400B98E02 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15292AA12375EB3500B98E02 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15292AA22375EB3500B98E02 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15292AA52375EB3500B98E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15292AA62375EB3500B98E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15292AA82375EB3500B98E02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADD2HMWG4X;
+				INFOPLIST_FILE = MyFirst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DV1N3333;
+				PRODUCT_NAME = DivineTouch;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		15292AA92375EB3500B98E02 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ADD2HMWG4X;
+				INFOPLIST_FILE = MyFirst/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = DV1N33333;
+				PRODUCT_NAME = DivineTouch;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15292A8A2375EB3400B98E02 /* Build configuration list for PBXProject "MyFirst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15292AA52375EB3500B98E02 /* Debug */,
+				15292AA62375EB3500B98E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15292AA72375EB3500B98E02 /* Build configuration list for PBXNativeTarget "MyFirst" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15292AA82375EB3500B98E02 /* Debug */,
+				15292AA92375EB3500B98E02 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15292A872375EB3400B98E02 /* Project object */;
+}
